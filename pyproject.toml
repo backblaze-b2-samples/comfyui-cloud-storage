@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-cloud-storage"
+version = "0.1.0"
+description = "Generic cloud storage nodes for ComfyUI - supports S3, B2, R2, MinIO, and more"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["boto3>=1.28.0"]
+
+[project.urls]
+Repository = "https://github.com/backblaze-b2-samples/comfyui-cloud-storage"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Cloud Storage Nodes"
+Icon = ""
